@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+
+<p>@{
+           @ViewData["Message"]
+       ;
+   }</p>
+
+<div id="Question">
+    @using(Html.BeginForm("Name","Home",FormMethod.Post, new {id="myForm", onSubmit="HideStuff()"}))
+    {
+        <h2>Vad heter du</h2>
+        <input type="text" name="Name" id="Name">
+        <input type="submit">
+    }
+</div>
+
+<script>
+    function HideStuff() {
+        document.getElementById("Question").style.display = "none";
+    }
+    
+</script>
