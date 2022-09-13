@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Namnlista", "Namnlista\Namnlista.csproj", "{8242A35B-9AF8-4442-B407-1937EFC6CF32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8242A35B-9AF8-4442-B407-1937EFC6CF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8242A35B-9AF8-4442-B407-1937EFC6CF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8242A35B-9AF8-4442-B407-1937EFC6CF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8242A35B-9AF8-4442-B407-1937EFC6CF32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22FDD7FC-898A-4071-8EEE-1E11084E0F29}
+	EndGlobalSection
+EndGlobal

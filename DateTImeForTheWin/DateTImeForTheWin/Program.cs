@@ -25,8 +25,10 @@ datetime = DateTime.Now; // Just nu!
 Console.WriteLine(datetime.AddDays(10));
 Console.WriteLine(datetime.AddDays(10).DayOfWeek);
 
+// Antal dagar till jul från idag!
 DateTime today = DateTime.Now;
 DateTime christmas = new DateTime(today.Year, 12, 24);
 double days = (christmas - today).TotalDays;
 Console.WriteLine($"Det är {days} kvar till jul.");
 
+Console.WriteLine(datetime.Year);//aktuell år för variabeln
