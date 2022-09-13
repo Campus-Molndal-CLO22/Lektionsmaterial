@@ -3,7 +3,14 @@ List<string> Namnlista = new();
 Namnlista.Add("Robin");
 Namnlista.AddRange(new string[]
     {
-        "Batman", "Catwoman","Alfred","Nightwing"
+        "Batman", "Alfred Pennyworth","Nightwing",
+        "The Red Hood","Red Robin","Batgirl", "Batwoman",
+        "Black cat","Batwing","Blue bird","The Huntress",
+        "Ghost-Maker","Jarro","Oracle", "James Gordon",
+        "Harley Quinn","Scarecrow","The Joker","Ra's al Gul",
+        "Poison Ivy","Two face","Catwoman", "Penguin", "Bane",
+        "Joe Chill", "Hugo Strange","The Riddler", "Deadshot",
+        "Killer Croc","Mr. Freeze"
     });
 
 while (true) // evig loop
@@ -14,6 +21,8 @@ while (true) // evig loop
     Console.WriteLine("+--------------+");
     Console.WriteLine("1 - Lägg till namn");
     Console.WriteLine("2 - Hitta namn");
+    Console.WriteLine("3 - Ta bort namn");
+    Console.WriteLine("4 - Visa alla namn");
 
     // Loop som upprepar sig tills man matat in en siffra
     int choice = 0; // Användarens val av funktion
