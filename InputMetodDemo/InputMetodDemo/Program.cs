@@ -2,19 +2,16 @@
 var date = AskForBirthData();
 Console.WriteLine($"Du föddes på en {date.DayOfWeek}");
 
-// Ett par Visual Studio tips:
-// Om du skriver namnet på en metod som inte finns, kommer glödlampan till vänster
-// att föreslå att den skapar metoden till dig. Du kan även trycka CTRL . för att
-// få fram menyn som låter dig flytta kod till en ny metod (Extract method)
-//
-// Lycka till och koda vilt!
+// ------------------------------------------------------------------------------------
+// - Ett par Visual Studio tips:                                                      -
+// - Om du skriver namnet på en metod som inte finns, kommer glödlampan till vänster  -
+// - att föreslå att den skapar metoden till dig. Du kan även trycka CTRL . för att   -
+// - få fram menyn som låter dig flytta kod till en ny metod (Extract method)         -
+// -                                                                                  -
+// - Lycka till och koda vilt!                                                        - 
+// ------------------------------------------------------------------------------------
 
-SayHello();
-
-void SayHello()
-{
-    Console.WriteLine("hello");
-}
+SayHello(); // Prova att skapa metoden med glödlampan och välj "Create method"
 
 
 // Skapa en metod för att fråga om en siffra och returnera den
