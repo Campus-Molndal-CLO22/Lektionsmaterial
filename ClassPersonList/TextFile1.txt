@@ -1,0 +1,22 @@
+    // Konstanter skrivs i PascalCase
+    const string MinCoolaVariabel = "Blä";
+    const int CPPCONSTANT = 1;
+
+    // lokala variabler = små bokstäver (camelCase)
+    private string whatever = "";
+
+    // Publika variabler (properties) i PascalCase
+    public string FirstName { get; set; }
+
+    public string LastName { get; set; }
+
+    // Pascal case = Alla ord sammanslagna, men varje ord med versal
+    //      PascalCase, MrMedina
+    // Camel Case = Alla ord är sammanslagna, men första ordet är litet (gemen)
+    // camelCase, mrMedina - Javascript, Java, PHP mm
+
+    // Metoder skrivs i PascalCase
+    public void PrintName()
+    {
+        Console.WriteLine(FirstName);
+    }
