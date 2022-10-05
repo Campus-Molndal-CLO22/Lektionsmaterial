@@ -55,8 +55,16 @@ function Loopar() {
     // array of questions with answers
     console.log("Loopar");
     return [
-        ["",
-            ""],
+        ["Vad är skillnaden mellan en for-loop och en while-loop?", "En for-loop körs så länge ett villkor är sant medan en while-loop körs bara ett visst antal gånger|En for-loop körs ett visst antal gånger, medan en while kör i all oändlighet|En for-loop körs ett visst antal gånger medan en while-loop körs minst tre gånger|En for-loop körs ett visst antal gånger medan en while-loop körs så länge en villkor är sant"],
+        ["Vad är skillnaden mellan en do-while-loop och en while-loop?", "En do-while-loop körs så länge ett villkor är sant medan en while-loop körs bara ett visst antal gånger|En do-while-loop körs ett visst antal gånger, medan en while kör i all oändlighet|En do-while-loop körs ett visst antal gånger medan en while-loop körs minst tre gånger|En do-while-loop körs minst en gång, medan While loopen kan skippas helt och hållet om givna villkor är uppfyllda"],
+        ["Vad är skillnaden mellan en foreach-loop och en for-loop?", "En foreach-loop körs så länge ett villkor är sant medan en for-loop körs bara ett visst antal gånger|En foreach-loop körs ett visst antal gånger, medan en for kör i all oändlighet|En foreach-loop körs ett visst antal gånger medan en for-loop körs minst tre gånger|En foreach-loop körs sålänge en lista innehåller data"],
+        ["Vad har man för nytta av break i en loop?", "Att skippa en loop|Att starta en loop|Att avsluta en loop|Att avbryta en loop"],
+        ["Om du har en array med 10 element, hur många gånger kommer loopen att köras?\n<code>for (int i=0; i<10; i++)\n{\n  Console.WriteLine(i);\n}</code>", "12|11|9|10"],
+        ["Kan en Lista innehålla arrayer?", "Nej|Kanske|Vet inte|Ja"],
+        ["Kan en array bestå av listor", "Nej|Kanske|Vet inte|Ja"],
+        ["Vad är skillnaden mellan en array och en lista?", "En array kan bara innehålla ett värde medan en lista kan innehålla flera värden|En array kan innehålla flera värden medan en lista bara kan innehålla ett värde|En array kan innehålla flera värden medan en lista kan bara inneh¨ålla max 32768 poster|En array har ett bestämt mängd med värden som inte kan ändras i runtime, medan en lista kan innehålla hur många värden som helst och ändras i runtime"],
+        ["Vad är skillnaden mellan en lista och en dictionary?", 
+        "Ingen skillnad, lista som lista.|En dictionary är snabbare och effektivare|En Dictionary kan hantera fler värden än en lista|En Dictionary tar emot ett index och ett värde medan en lista bara tar emot ett värde"],
     ];
 }
 
