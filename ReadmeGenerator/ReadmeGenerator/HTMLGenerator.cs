@@ -7,7 +7,8 @@
 
         public void AddCode(string text)
         {
-            File += "<pre>" + text +"</pre>";
+            // add borde black background and green text to the pre
+            File += "<pre style='background-color:black; text:green'>\n" + text + "\n</pre>";
         }
 
         public void AddHeader1(string text)
@@ -28,6 +29,14 @@
         public void AddText(string text)
         {
             File += "<p>" + text.Replace("\n","<br>") + "</p>";
+        }
+
+        public void SaveFile(string savePath)
+        {
+            string htmlDoc = "<html><head><title>Readme</title></head><body>" + File + "</body></html>";
+
+            string filename = Path.Combine(savePath, Filename + ".html");
+            System.IO.File.WriteAllText(filename, htmlDoc);
         }
     }
 }

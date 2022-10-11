@@ -8,4 +8,5 @@
     void AddHeader2(string text);
     void AddHeader3(string text);
     void AddText(string text);
+    void SaveFile(string v);
 }

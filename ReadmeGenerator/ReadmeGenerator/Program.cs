@@ -4,7 +4,14 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        IDocumentGenerator md = new HTMLGenerator();
+        IDocumentGenerator md = new MarkdownGenerator();
+        IDocumentGenerator html = new HTMLGenerator();
+        Createfile(md);
+        Createfile(html);
+    }
+
+    private static void Createfile(IDocumentGenerator md)
+    {
         md.Filename = "readme";
         md.AddHeader1("Readme generator");
         md.AddText("Det här programmet genererar readmefiler");
@@ -16,7 +23,9 @@ internal class Program
         md.AddText("- AddHeader3()");
         md.AddText("- AddText()");
         md.AddHeader3("CLO22 rulez!");
-        md.AddCode("Console.WriteLine(\"CLO22 Rulez!!\"");
+        md.AddCode("Console.WriteLine(\"CLO22 Rulez!!\");");
+        md.SaveFile(@"..\..\..\Output");
         Console.WriteLine(md.File);
+        Console.WriteLine();
     }
 }
