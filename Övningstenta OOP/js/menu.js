@@ -11,7 +11,7 @@ let menuItems = {
     "Variabler, Datatyper och Operatorer": "DataTypes",
     "Arrays": "Arrayer",
     "Villkor": "Villkor",
-    //"Loopar": "Loopar",
+    "Loopar": "Loopar",
     //"Metoder": "Metoder",
     //"Klasser": "Klasser",
     //"Interface": "Interface",
