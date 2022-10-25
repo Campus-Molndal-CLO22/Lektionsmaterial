@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionPizzaSliceCLO22", "RepetitionPizzaSliceCLO22\RepetitionPizzaSliceCLO22.csproj", "{AFF8E037-56A0-4530-A297-B8EA945EA8FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF8E037-56A0-4530-A297-B8EA945EA8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF8E037-56A0-4530-A297-B8EA945EA8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF8E037-56A0-4530-A297-B8EA945EA8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF8E037-56A0-4530-A297-B8EA945EA8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5760DD91-76CC-41F1-9B6F-6A6F9D9CA31E}
+	EndGlobalSection
+EndGlobal
