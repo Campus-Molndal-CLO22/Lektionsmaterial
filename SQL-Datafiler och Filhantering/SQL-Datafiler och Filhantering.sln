@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL-Datafiler och Filhantering", "SQL-Datafiler och Filhantering\SQL-Datafiler och Filhantering.csproj", "{D8BA0658-3CE9-4C5A-9C55-E12B25EE7F15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8BA0658-3CE9-4C5A-9C55-E12B25EE7F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BA0658-3CE9-4C5A-9C55-E12B25EE7F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BA0658-3CE9-4C5A-9C55-E12B25EE7F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BA0658-3CE9-4C5A-9C55-E12B25EE7F15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49E818E9-0BCE-47CE-A141-015B60527FED}
+	EndGlobalSection
+EndGlobal
