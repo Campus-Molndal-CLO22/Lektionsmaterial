@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveKod CLO22 Linq 2022-11-15", "LiveKod CLO22 Linq 2022-11-15\LiveKod CLO22 Linq 2022-11-15.csproj", "{89DAE240-BB47-40EF-8E81-C7AE374C7D63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89DAE240-BB47-40EF-8E81-C7AE374C7D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89DAE240-BB47-40EF-8E81-C7AE374C7D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89DAE240-BB47-40EF-8E81-C7AE374C7D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89DAE240-BB47-40EF-8E81-C7AE374C7D63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B95DD6D-2233-4464-ABB5-98CE08C3ABFE}
+	EndGlobalSection
+EndGlobal
