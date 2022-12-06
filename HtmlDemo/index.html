@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Min coola Webbsida</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <a name="top"></a>
+      <h2>Min coola sida</h2>
+    </header>
+    <nav id="blah">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#info">Info</a></li>
+      <li><a href="#about">Om oss</a></li>
+      <li><a href="https://github.com/orgs/Campus-Molndal-CLO22/repositories" target="_blank">CLO22 Github</a></li>
+    </nav>
+<section>
+  <a name="info"></a>
+  <h2>Info</h2>
+  <p>Detta är vårt företags coola webbsida</p>
+  <p>Hej hopp<br>
+  trallalala</p>
+  <img src="png-image.png" class="tomte" width=300px>
+  <br><a href="#top"  class="uppKnapp">Upp</a>
+</section>
+
+<section>
+  <a name="about"></a>
+  <h2>Om oss</h2>
+  <p>Vi skapar hemska webbsidor</p>
+  <p>Hej hopp<br>
+  trallalala</p>
+  <br><a href="#top" class="uppKnapp">Upp</a>
+</section>
+
+<script language="Javascript">
+  (function() {
+      var s = document.getElementById('blah').style,
+          f = false,
+          c1 = s.backgroundColor,
+          c2 = '#000000';
+
+      setInterval(function() {
+          s.backgroundColor = f ? c1 : c2;
+          s.color = f ? c2 : c1;
+          f = !f;
+      }, 500);
+  })();
+</script>
+
+  </body>
+</html>

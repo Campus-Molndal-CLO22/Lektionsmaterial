@@ -1,0 +1,29 @@
+header
+{
+    background-image: url("../pix/pexels-sebastian-arie-voortman-189349.jpg");
+}
+
+body
+{
+    background-color: black;
+    color: beige;
+    margin: 50px;
+}
+
+nav li
+{
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+}
+
+nav a
+{
+    color: beige;
+    text-decoration: none;
+}   
+
+nav a:hover
+{
+    color: white;
+}
