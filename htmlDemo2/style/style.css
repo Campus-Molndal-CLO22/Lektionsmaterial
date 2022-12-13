@@ -1,13 +1,21 @@
 header
 {
     background-image: url("../pix/pexels-sebastian-arie-voortman-189349.jpg");
+    background-size: 100%;
+    width: 2000px;
 }
-
+h1
+{
+    font-family: 'Tangerine', serif;
+    font-size: 46px;
+}
 body
 {
     background-color: black;
     color: beige;
     margin: 50px;
+    background-image: url("../pix/pexels-pixabay-220182.jpg");
+    font-size: 16px;
 }
 
 nav li
@@ -27,3 +35,55 @@ nav a:hover
 {
     color: white;
 }
+
+section
+{
+    background-color: black;
+     opacity: 0.7;
+     padding:10px;
+    border-radius: 5px;
+}
+
+footer
+{
+    background-color: black;
+    color: beige;
+    text-align: center;
+    padding: 10px;
+       position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.medal
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 95px;
+}
+
+.coolTable
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.coolTable tr td
+{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid green;
+}
+
+.coolTable tr:hover
+{
+    background-color: darkblue;
+}
+
+#btn{
+    position: absolute;
+    top: 670px;
+    left: 60px;
+  }
+  

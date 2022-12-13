@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolTDD", "ConsolTDD\ConsolTDD.csproj", "{6D6870DD-241A-4AC4-A7C3-FA53C2420BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolTDDTests", "ConsolTDDTests\ConsolTDDTests.csproj", "{63EF8DF8-C6B7-43AE-A5FF-285463F260FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D6870DD-241A-4AC4-A7C3-FA53C2420BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6870DD-241A-4AC4-A7C3-FA53C2420BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6870DD-241A-4AC4-A7C3-FA53C2420BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6870DD-241A-4AC4-A7C3-FA53C2420BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63EF8DF8-C6B7-43AE-A5FF-285463F260FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EF8DF8-C6B7-43AE-A5FF-285463F260FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EF8DF8-C6B7-43AE-A5FF-285463F260FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EF8DF8-C6B7-43AE-A5FF-285463F260FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C9B4F00-EE8F-4D9B-97CB-98D035C3CA8D}
+	EndGlobalSection
+EndGlobal
