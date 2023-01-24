@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPizzaRepetition", "BuilderPizzaRepetition\BuilderPizzaRepetition.csproj", "{81F90074-1245-45FF-B062-6FD9B4BB9E52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81F90074-1245-45FF-B062-6FD9B4BB9E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F90074-1245-45FF-B062-6FD9B4BB9E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F90074-1245-45FF-B062-6FD9B4BB9E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F90074-1245-45FF-B062-6FD9B4BB9E52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F63853A4-CC9C-468E-AA7B-4627362ACCB8}
+	EndGlobalSection
+EndGlobal

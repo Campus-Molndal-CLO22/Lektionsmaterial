@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonRepetition", "SingletonRepetition\SingletonRepetition.csproj", "{237CE475-5C21-4A1E-881E-6D7A52165E7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{237CE475-5C21-4A1E-881E-6D7A52165E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237CE475-5C21-4A1E-881E-6D7A52165E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237CE475-5C21-4A1E-881E-6D7A52165E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237CE475-5C21-4A1E-881E-6D7A52165E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C4C58CD-A2B5-41CD-9E55-E8E12424DB8D}
+	EndGlobalSection
+EndGlobal
